@@ -1,6 +1,5 @@
 <template>
   <div class="screen">
-    <h1>Interact components here</h1>
     <div
       class="screen__inner"
       :style="{

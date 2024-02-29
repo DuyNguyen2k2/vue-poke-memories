@@ -3,12 +3,12 @@
     class="card"
     :class="{ disabled: matched }"
     :style="{
-      height: `${(850 - 16 * 4) / Math.sqrt(cardsContext.length) - 16}px`,
+      height: `${(920 - 16 * 4) / Math.sqrt(cardsContext.length) - 16}px`,
       width: `${
-        (((850 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4
+        (((920 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4
       }px`,
       perspective: `${
-        ((((850 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4) * 2
+        ((((920 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4) * 2
       }px`,
     }"
   >
